@@ -1,0 +1,27 @@
+.footeForm {
+  display: flex;
+  gap: 15px;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 60%;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 40%;
+  }
+}
+.buttoncheck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+
+  .botaoCheck {
+    width: 4% !important;
+  }
+}
